@@ -44,7 +44,7 @@ layout: home
 			</ul>
 		</div>
 		<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626" async></script>
-	    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" style="width: 400px; margin-top: -16px;"></div>
+	    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" style="width: 400px; margin-top: -70px;"></div>
 	    <noscript>Please enable javascript in your browser to book</noscript>
 	</div>
 </div>
@@ -68,20 +68,3 @@ layout: home
 </div>
 
 <div style="width:100%; height: 120px;"></div>
-
-<script>
-	document.addEventListener('DOMContentLoaded', function() {
-	    var footer = document.getElementById('sticky-footer');
-	    var button = document.getElementById('primary-button');
-	    var buttonOffset = button.getBoundingClientRect();
-	    var triggerHeight = window.pageYOffset + buttonOffset.top + buttonOffset.height*.6;
-		window.onscroll = function() {
-		    if (window.pageYOffset > triggerHeight) {
-		        footer.classList.add("show-footer");
-		    } else {
-		        footer.classList.remove("show-footer");
-		    }
-		}
-	}, false);
-
-</script>

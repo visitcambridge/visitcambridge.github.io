@@ -22,6 +22,10 @@ $tertiary-color: #FCDB0F;
   background: #FFEFD9;
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 .page-content {	
 	padding: 0 !important;
 }
@@ -86,6 +90,10 @@ h3 {
 p {
 	font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
 	color: $font-color;
+}
+
+#tour-description p {
+	margin-bottom: 20px;
 }
 
 #atf {
