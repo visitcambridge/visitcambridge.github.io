@@ -57,6 +57,7 @@ $tertiary-color: #FCDB0F;
 
 .site-header {
 	border-top: 0px;
+	border-bottom: 2px solid #e8e8e8;
 }
 
 .site-header .wrapper {
@@ -91,6 +92,21 @@ p {
 	display: flex;
 	align-items: center;
     min-height: 63vh;
+}
+
+#atf-wrapper {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#atf-copy {
+	padding-left: 40px;
+}
+
+#xxx {
+	position: relative;
+	left: -440px;
 }
 
 #main-title {
@@ -140,7 +156,7 @@ p {
 }
 
 .key-messaging  {
-	font-size: 2.8rem;
+	font-size: 2.9rem;
 	line-height: 3.8rem;
 	color: $font-color;
 	margin: 0;
@@ -288,12 +304,12 @@ p {
 }
 
 #experts-header {
-	border-bottom: 2px solid $font-secondary-color;
+	border-bottom: 2px solid #D6D6D6;
 	width: 100%;
 }
 
 .iotg {
-	width: 150px;
+	width: 170px;
 }
 
 #forward {
@@ -333,7 +349,7 @@ p {
 }
 
 .profile-image {
-	width: 250px;
+	width: 400px;
 	border-radius: 5px;
 	
 }
