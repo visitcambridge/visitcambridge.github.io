@@ -31,13 +31,21 @@ layout: home
 
 <div id="next-up-container">
 	<div id="next-up-header"><h2>Essential Cambridge</h2></div>
-	<div id="next-up">
-		<img id="avid" class="profile-image" src="/assets/images/avid-larizadeh-duggan.jpg" alt="Avid Larizadeh Duggan" title="Avid Larizadeh Duggan">
-		<div class="profile">
-			<p class="date">20th August 2020</p>
-			<p class="name">Avid Larizadeh Duggan OBE, Entrepreneur and Investor</p>
-			<p class="description">Avid is the ex-COO of <a href="https://www.kobaltmusic.com/?utm_source=productsurgery&utm_medium=website&utm_campaign=none" target="_blank">Kobalt</a>—the music services unicorn. She has been a General Partner at Google Ventures, an Associate at Accel, and a Product Manager at Skype and eBay. Her angel investments include Okta, which went public in 2017.</p>
+	<div id="tour-container">
+		<div id="tour-description">
+			<p>Join the official walking tour of Cambridge to see its unmissable sights. Your 90 minute tour will span Cambridge’s 2,000 year history - from its humble beginnings as an Iron Age camp, to its current status as world-leading centre of learning and research.</p>
+			<p>You’ll hear tales of its people and landmarks, including the formation of Cambridge University and its colleges from old religious institutions.</p>
+			<p>You’ll visit places that have changed the world, including the Cavendish Laboratory Building which is linked with 29 Nobel Laureates. You’ll see where the very structure of our being, the double helix DNA, was discovered by Watson, Crick, Wilkins, and Franklin.</p>
+			<p>Along the way you’ll pass:</p>
+			<ul>
+				<li> King's College, whose world famous Chapel is home to an exceptional choir.</li>
+			    <li> Trinity College, where you'll see Newton's apple tree.</li>
+			    <li> St John's College, where William Wilberforce started his university career before fighting to abolish slavery.</li>
+			</ul>
 		</div>
+		<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626" async></script>
+	    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" style="width: 400px; margin-top: -16px;"></div>
+	    <noscript>Please enable javascript in your browser to book</noscript>
 	</div>
 </div>
 
@@ -59,15 +67,7 @@ layout: home
 	<p> Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
 </div>
 
-<div class="explainer-container">
-	<h2>Our city</h2>
-	<p> You're a founder of an early-stage business that has a live product, and at least some initial usage. This quote by <a href="https://pmarchive.com/guide_to_startups_part4.html" target="_blank">Marc Andreessen</a> describes your current situation:</p>
-	<div class="big-quote">
-		<p>You can always feel when product-market fit is not happening. The customers aren't quite getting value out of the product, word of mouth isn't spreading, usage isn't growing that fast, press reviews are kind of ‘blah’, the sales cycle takes too long, and lots of deals never close.
-		</p>
-	</div>
-	<div style="width:100%; height: 90px;"></div>
-</div>
+<div style="width:100%; height: 120px;"></div>
 
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
