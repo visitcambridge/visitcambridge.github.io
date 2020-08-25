@@ -9,22 +9,23 @@ layout: home
 	<div id="atf-wrapper">
 		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" alt="Visit Cambridge Official Walking Tours | River Cam" title="Visit Cambridge Official Walking Tours | River Cam">
 		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
-		<div id="atf-images">
-			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
-		</div>
 		<div id="atf-copy">
 			<div id="key-messaging-container">
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
 			</div>
 			{% include button.html url="https://airtable.com/shrKMvV2iBd4rwRSv" %}
+			<p class="description primary-color"><b>COVID-19:</b> We're open for business. All of our tours are socially distanced.</p>
+		</div>
+		<div id="atf-images">
+			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
 		</div>
 	</div>
 </div>
 
 <div id="experts-container">
 	<div id="experts-header"><h3>Hosted by award-winning guides</h3></div>
-	<img class="iotg" src="/assets/images/ta.svg" alt="Trip Advisor 4.5 rating" title="Trip Advisor 4.5 rating">
-	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">
+	<img class="iotg" src="/assets/images/ta.svg" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
+	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of Tourist Guiding" title="Institute of tourist guiding">
 	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">	
 </div>
 
@@ -55,8 +56,7 @@ layout: home
 
 <div class="explainer-container">
 	<h2>Our guides<span class="secondary-color">.</span></h2>
-	<p> We run private, one-on-one sessions with startups. The sessions are honest and candid, where founders share their real problems—they don't spend time pitching.</p>
-	<p> Each session lasts approximately 45 minutes. We give recommendations and provide the startups with an action plan. Startups provide updates over time about their progress.</p>
+	<p> Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
 </div>
 
 <div class="explainer-container">

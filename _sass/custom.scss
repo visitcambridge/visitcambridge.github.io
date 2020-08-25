@@ -102,17 +102,23 @@ p {
 }
 
 #atf-copy {
-	padding-left: 40px;
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+#bridge-of-sighs {
+	position: relative;
+	right: -40px
 }
 
 #rc {
 	position: absolute;
-	left: -430px;
+	left: -470px;
 }
 
 #kcc {
 	position: absolute;
-	right: -430px;
+	right: -470px;
 	top: 0;
 }
 
@@ -123,7 +129,7 @@ p {
 }
 
 #key-messaging-container {
-	padding: 40px 0 40px 0;
+	padding: 0 0 40px 0;
 }
 
 #sticky-footer {
@@ -194,7 +200,7 @@ p {
 	height: 80px;
 	border-radius: 5px;
 	cursor: pointer;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	transition: all 0.3s ease-in-out;
 	&:hover {
         background-color: $secondary-color;
