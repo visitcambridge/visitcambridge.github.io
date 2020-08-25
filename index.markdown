@@ -14,7 +14,7 @@ layout: home
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
 			</div>
 			{% include button.html url="https://airtable.com/shrKMvV2iBd4rwRSv" %}
-			<p class="description primary-color"><b>COVID-19:</b> We're open for business. All of our tours are socially distanced.</p>
+			<p class="description primary-color"><b>COVID-19:</b> We're open for business with socially distanced tours.</p>
 		</div>
 		<div id="atf-images">
 			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
@@ -25,12 +25,12 @@ layout: home
 <div id="experts-container">
 	<div id="experts-header"><h3>Hosted by award-winning guides</h3></div>
 	<img class="iotg" src="/assets/images/ta.svg" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
-	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of Tourist Guiding" title="Institute of tourist guiding">
-	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">	
+	<img class="vc-grey" src="/assets/images/vc-grey.svg" alt="Quality-assured by Visit Cambridge" title="Quality-assured by Visit Cambridge">
+	<img class="iotg" src="/assets/images/iotg.svg" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
 </div>
 
 <div id="next-up-container">
-	<div id="next-up-header"><h2>Essential Cambridge<span class="primary-color">.</span></h2></div>
+	<div id="next-up-header"><h2>Essential Cambridge</h2></div>
 	<div id="next-up">
 		<img id="avid" class="profile-image" src="/assets/images/avid-larizadeh-duggan.jpg" alt="Avid Larizadeh Duggan" title="Avid Larizadeh Duggan">
 		<div class="profile">
@@ -55,12 +55,12 @@ layout: home
 </div>
 
 <div class="explainer-container">
-	<h2>Our guides<span class="secondary-color">.</span></h2>
+	<h2>Our guides</h2>
 	<p> Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
 </div>
 
 <div class="explainer-container">
-	<h2>Our city<span class="tertiary-color">.</span></h2>
+	<h2>Our city</h2>
 	<p> You're a founder of an early-stage business that has a live product, and at least some initial usage. This quote by <a href="https://pmarchive.com/guide_to_startups_part4.html" target="_blank">Marc Andreessen</a> describes your current situation:</p>
 	<div class="big-quote">
 		<p>You can always feel when product-market fit is not happening. The customers aren't quite getting value out of the product, word of mouth isn't spreading, usage isn't growing that fast, press reviews are kind of ‘blah’, the sales cycle takes too long, and lots of deals never close.
