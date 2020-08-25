@@ -65,7 +65,7 @@ $tertiary-color: #FCDB0F;
 }
 
 h1, h2 {
-	font-family: 'Times', "Arial Black", Sans-Serif;
+	font-family: 'Times', Serif;
 	margin: 0;
 	color: $font-color;
 }
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {	
-	font-family: 'Times', Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+	font-family: 'Times', Serif;
 	margin: 0;
 	color: $font-color;
 	font-size: 1.3rem;
@@ -140,11 +140,11 @@ p {
 }
 
 .key-messaging  {
-	font-size: 1.8rem;
-	line-height: 2.8rem;
-	color: #0D302D;
+	font-size: 2.8rem;
+	line-height: 3.8rem;
+	color: $font-color;
 	margin: 0;
-	font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+	font-family: 'Times', Serif;
 }
 
 .button-anchor, .button-anchor:hover, .button-anchor:active {
