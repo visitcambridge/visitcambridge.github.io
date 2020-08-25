@@ -7,7 +7,11 @@ layout: home
 
 <div id="atf">
 	<div id="atf-wrapper">
-		<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours" title="Visit Cambridge Official Walking Tours">
+		<img id="xxx" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours" title="Visit Cambridge Official Walking Tours">
+		<img id="yyy" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours" title="Visit Cambridge Official Walking Tours">
+		<div id="atf-images">
+			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours" title="Visit Cambridge Official Walking Tours">
+		</div>
 		<div id="atf-copy">
 			<div id="key-messaging-container">
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
@@ -19,8 +23,8 @@ layout: home
 
 <div id="experts-container">
 	<div id="experts-header"><h3>Hosted by award-winning guides</h3></div>
-	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">
 	<img class="iotg" src="/assets/images/ta.svg" alt="Trip Advisor 4.5 rating" title="Trip Advisor 4.5 rating">
+	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">
 	<img class="iotg" src="/assets/images/iotg.svg" alt="Institute of tourist guiding" title="Institute of tourist guiding">	
 </div>
 

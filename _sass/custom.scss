@@ -95,6 +95,7 @@ p {
 }
 
 #atf-wrapper {
+	position: relative;
 	display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -105,8 +106,14 @@ p {
 }
 
 #xxx {
-	position: relative;
-	left: -440px;
+	position: absolute;
+	left: -430px;
+}
+
+#yyy {
+	position: absolute;
+	right: -430px;
+	top: 0;
 }
 
 #main-title {
@@ -350,6 +357,7 @@ p {
 
 .profile-image {
 	width: 400px;
+	max-width: 400px;
 	border-radius: 5px;
 	
 }
