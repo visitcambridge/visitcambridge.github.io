@@ -7,7 +7,7 @@ layout: home
 
 <div id="atf">
 	<div id="atf-wrapper">
-		<img id="xxx" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
+		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" alt="Visit Cambridge Official Walking Tours | River Cam" title="Visit Cambridge Official Walking Tours | River Cam">
 		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
 		<div id="atf-images">
 			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
