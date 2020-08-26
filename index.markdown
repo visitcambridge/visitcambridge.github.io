@@ -23,14 +23,14 @@ layout: home
 </div>
 
 <div id="experts-container">
-	<div id="experts-header"><h3>Hosted by award-winning guides</h3></div>
+	<div id="experts-header"><h2>Hosted by award-winning guides</h2></div>
 	<img class="iotg" src="/assets/images/ta.svg" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" alt="Quality-assured by Visit Cambridge" title="Quality-assured by Visit Cambridge">
 	<img class="iotg" src="/assets/images/iotg.svg" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
 </div>
 
 <div id="next-up-container">
-	<div id="next-up-header"><h2>Cambridge essentials</h2></div>
+	<div id="next-up-header"><h2>Essential Cambridge</h2></div>
 	<div id="tour-container">
 		<div id="tour-description">
 			<p>Join the official walking tour of Cambridge to see its unmissable sights. Your 90 minute tour will span Cambridge’s 2,000 year history - from its humble beginnings as an Iron Age camp, to its current status as world-leading centre of learning and research.</p>
@@ -43,14 +43,11 @@ layout: home
 			    <li> St John's College, where William Wilberforce started his university career before fighting to abolish slavery.</li>
 			</ul>
 		</div>
-		<script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626" async></script>
-	    <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" ></div>
-	    <noscript>Please enable javascript in your browser to book</noscript>
 	</div>
 </div>
 
 <div id="quote-container">
-	<div id="quotes-header"><h3>Feedback from guests</h3></div>
+	<div id="quotes-header"><h3>What our guests are saying</h3></div>
 	<div id="quote-1" class="quote">
 		<p>It was incredible value, and a safe space for feedback. I'd pay for this.</p>
 	</div>
@@ -62,6 +59,9 @@ layout: home
 	</div>
 </div>
 
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" ></div>
+<noscript>Please enable javascript in your browser to book</noscript>
+
 <div class="explainer-container">
 	<h2>Our guides</h2>
 	<p> Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
@@ -71,6 +71,11 @@ layout: home
 
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
+
+		var tag = document.createElement("script");
+		tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
+		document.getElementsByTagName("head")[0].appendChild(tag);
+
 		window.smoothScroll = function(target) {
 		    var scrollContainer = target;
 		    do { //find scroll container

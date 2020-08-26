@@ -81,11 +81,12 @@ h2 {
 	line-height: 5rem;
 }
 
-h3 {	
+h3, #experts-header h2 {	
 	font-family: 'Times', Serif;
 	margin: 0;
 	color: $font-color;
 	font-size: 1.3rem;
+	line-height: 1.5;
 }
 
 p {
@@ -362,7 +363,7 @@ p {
 }
 
 #next-up-container {
-	margin: 80px 0;
+	margin: 80px 0 40px 0;
 }
 
 #previously-container {
