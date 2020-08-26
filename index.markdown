@@ -60,7 +60,7 @@ layout: home
 	</div>
 </div>
 
-<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944" ></div>
+<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944"></div>
 <noscript>Please enable javascript in your browser to book</noscript>
 
 <div class="explainer-container">
