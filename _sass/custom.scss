@@ -57,6 +57,7 @@ html, body {
 
 .site-nav .page-link {
 	color: $font-secondary-color;
+	cursor: pointer;
 }
 
 .site-header {
@@ -130,7 +131,7 @@ p {
 	top: 0;
 }
 
-#tour-container {
+/*#tour-container {
 	position: relative;
 	display: flex;
     justify-content: flex-start;
@@ -141,7 +142,7 @@ p {
 #tour-description {
 	width: 60%;
 	padding-right: 40px;
-}
+}*/
 
 #main-title {
 	font-size: 4rem;
@@ -361,7 +362,7 @@ p {
 }
 
 #next-up-container {
-	margin: 60px 0;
+	margin: 80px 0;
 }
 
 #previously-container {
@@ -386,6 +387,11 @@ p {
 
 #next-up-header, #previously-header {
 	width: 100%;
+}
+
+#next-up-header h2 {
+	font-size: 3rem !important;
+	margin-bottom: 1rem;
 }
 
 .profile-image {
