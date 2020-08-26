@@ -7,8 +7,8 @@ layout: home
 
 <div id="atf">
 	<div id="atf-wrapper">
-		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" alt="Visit Cambridge Official Walking Tours | River Cam" title="Visit Cambridge Official Walking Tours | River Cam">
-		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
+		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | River Cam" title="Visit Cambridge Official Walking Tours | River Cam">
+		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
 		<div id="atf-copy">
 			<div id="key-messaging-container">
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
@@ -17,7 +17,7 @@ layout: home
 			<p class="description primary-color"><b>COVID-19:</b> We're open for business with socially distanced tours.</p>
 		</div>
 		<div id="atf-images">
-			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
+			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" loading="eager" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
 		</div>
 	</div>
 </div>
@@ -75,6 +75,7 @@ layout: home
 
 		var tag = document.createElement("script");
 		tag.setAttribute("async", "");
+		tag.setAttribute("defer", "");
 		tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
 		document.getElementsByTagName("head")[0].appendChild(tag);
 
