@@ -25,7 +25,7 @@ layout: home
 <div id="experts-container">
 	<div id="experts-header"><h2>Hosted by award-winning guides</h2></div>
 	<img class="iotg" src="/assets/images/ta.svg" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
-	<img class="vc-grey" src="/assets/images/vc-grey.svg" alt="Quality-assured by Visit Cambridge" title="Quality-assured by Visit Cambridge">
+	<img class="vc-grey" src="/assets/images/vc-grey.svg" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
 	<img class="iotg" src="/assets/images/iotg.svg" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
 </div>
 
