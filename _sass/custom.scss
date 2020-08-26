@@ -132,18 +132,9 @@ p {
 	top: 0;
 }
 
-/*#tour-container {
-	position: relative;
-	display: flex;
-    justify-content: flex-start;
-    align-items: top;
-
+.bokunWidget {
+	margin: 0 -4px 0 -4px;
 }
-
-#tour-description {
-	width: 60%;
-	padding-right: 40px;
-}*/
 
 #main-title {
 	font-size: 4rem;
@@ -419,7 +410,7 @@ p {
 	min-height: 20vh;
 	left: -42px;
 	width: calc(100% + 42px);
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 #quotes-header {

@@ -73,6 +73,7 @@ layout: home
 	document.addEventListener('DOMContentLoaded', function() {
 
 		var tag = document.createElement("script");
+		tag.setAttribute("async", "");
 		tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
 		document.getElementsByTagName("head")[0].appendChild(tag);
 
