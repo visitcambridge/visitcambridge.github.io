@@ -3,21 +3,25 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2 class="footer-heading">Visit Cambridge Ltd</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
+            {%- if false -%}
+              {%- if site.author -%}
+                {{ site.author | escape }}
+              {%- else -%}
+                {{ site.title | escape }}
+              {%- endif -%}
+            {%- endif -%}  
             </li>
+            <li><a class="u-email primary-color" href="/privacy">Privacy</a></li>
+            <li><a class="u-email primary-color" href="/terms">Terms and conditions</a></li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+              <li><a class="u-email primary-color" href="mailto:{{ site.email }}">Contact us</a></li>
+            {%- endif -%}            
         </ul>
       </div>
 
