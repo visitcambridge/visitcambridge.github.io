@@ -518,6 +518,18 @@ p {
 
 @media (max-width: 480px)  {
 
+	.site-nav {
+		display: none;
+	}
+
+	#footer-description {
+		font-size: 1rem;
+	}
+
+	.site-nav .page-link:not(:last-child) {
+		margin-right: 0;
+	}
+
 	#atf-copy {
 		padding-right: 0;
 		width: 100%;
