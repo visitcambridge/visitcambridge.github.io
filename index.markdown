@@ -29,9 +29,9 @@ layout: home
 	<img class="iotg" src="/assets/images/iotg.svg" loading="lazy" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
 </div>
 
-<div id="next-up-container">
-	<div id="next-up-header"><h2>Our guides</h2></div>
-	<div id="next-up">
+<div id="guides-container">
+	<div id="guides-header"><h2>Our guides</h2></div>
+	<div id="guides">
 		<img id="max" class="profile-image" src="/assets/images/max.jpg" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
 		<div class="profile">
 			<p class="description">Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
@@ -41,7 +41,7 @@ layout: home
 </div>
 
 <div id="next-up-container">
-	<div id="next-up-header"><h2>Essential Cambridge</h2></div>
+	<div id="next-up-header"><h2>The essential Cambridge tour</h2></div>
 	<div id="tour-container">
 		<div id="tour-description">
 			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>

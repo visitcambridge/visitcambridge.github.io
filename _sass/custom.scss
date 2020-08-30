@@ -351,7 +351,7 @@ p {
 	width: 100px;
 }
 
-#next-up-container {
+#next-up-container, #guides-container {
 	margin: 80px 0 40px 0;
 }
 
@@ -359,7 +359,7 @@ p {
 	margin: 30px 0 60px 0;
 }
 
-#next-up, .previously {
+#next-up, #guides, .previously {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -375,11 +375,11 @@ p {
 
 }
 
-#next-up-header, #previously-header {
+#next-up-header, #guides-header, #previously-header {
 	width: 100%;
 }
 
-#next-up-header h2, .explainer-container h2 {
+#next-up-header h2, #guides-header h2, .explainer-container h2 {
 	font-size: 3rem !important;
 	margin-bottom: 1rem;
 }
@@ -498,7 +498,7 @@ p {
 
 @media (max-width: 767px)  {
 
-	#next-up, .previously {
+	#next-up, #guides, .previously {
 		flex-wrap: wrap;
 	}
 
@@ -514,9 +514,31 @@ p {
 
 @media (max-width: 480px)  {
 
+	#atf-copy {
+		padding-right: 0;
+		width: 100%;
+	}
+
+	#atf-images {
+		display: none;
+	}
+
+	#experts-container {
+		margin-bottom: 10vh;
+	}
+
+
+	#next-up-header h2, #guides-header h2, .explainer-container h2 {
+		line-height: 3.8rem;
+	}
+
+	.vc-grey {
+		display: none;
+	}
+
 	.key-messaging {
-		font-size: 1.4rem;
-		line-height: 2.4rem;
+		font-size: 2.4rem;
+		line-height: 3rem;
 	}
 
 	h3 {
@@ -524,7 +546,7 @@ p {
 	}
 
 
-	#next-up-container, #previously-container {
+	#next-up-container, #guides-container, #previously-container {
 		margin: 0 0 60px 0;
 	}
 
@@ -551,7 +573,7 @@ p {
 	}
 
 	.iotg {
-		width: 150px;
+		width: 130px;
 	}
 
 	#forward {
