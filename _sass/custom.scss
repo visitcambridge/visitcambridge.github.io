@@ -195,9 +195,7 @@ p {
 }
 
 .description {
-	
-	margin-bottom: 0;
-
+	margin-bottom: 20px;
 }
 
 .button {
@@ -211,7 +209,7 @@ p {
 	font-size: 1.3rem;
 	color: white;
 	width: 200px;
-	height: 80px;
+	height: 70px;
 	border-radius: 5px;
 	cursor: pointer;
 	margin-bottom: 20px;
@@ -381,7 +379,7 @@ p {
 	width: 100%;
 }
 
-#next-up-header h2 {
+#next-up-header h2, .explainer-container h2 {
 	font-size: 3rem !important;
 	margin-bottom: 1rem;
 }

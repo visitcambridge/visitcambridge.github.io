@@ -13,7 +13,7 @@ layout: home
 			<div id="key-messaging-container">
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
 			</div>
-			{% include button.html url="https://airtable.com/shrKMvV2iBd4rwRSv" %}
+			{% include button.html %}
 			<p class="description primary-color"><b>COVID-19:</b> We're open for business with socially distanced tours.</p>
 		</div>
 		<div id="atf-images">
@@ -27,6 +27,17 @@ layout: home
 	<img class="iotg" src="/assets/images/ta.svg" loading="lazy" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" loading="lazy" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
 	<img class="iotg" src="/assets/images/iotg.svg" loading="lazy" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
+</div>
+
+<div id="next-up-container">
+	<div id="next-up-header"><h2>Our guides</h2></div>
+	<div id="next-up">
+		<img id="max" class="profile-image" src="/assets/images/max.jpg" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
+		<div class="profile">
+			<p class="description">Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
+			{% include button.html %}
+		</div>
+	</div>
 </div>
 
 <div id="next-up-container">
@@ -62,11 +73,6 @@ layout: home
 
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944"></div>
 <noscript>Please enable javascript in your browser to book</noscript>
-
-<div class="explainer-container">
-	<h2>Our guides</h2>
-	<p> Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
-</div>
 
 <div style="width:100%; height: 120px;"></div>
 
