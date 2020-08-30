@@ -79,12 +79,6 @@ layout: home
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
 
-		var tag = document.createElement("script");
-		tag.setAttribute("async", "");
-		tag.setAttribute("defer", "");
-		tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
-		document.getElementsByTagName("head")[0].appendChild(tag);
-
 		window.smoothScroll = function(target) {
 		    var scrollContainer = target;
 		    do { //find scroll container
@@ -107,5 +101,29 @@ layout: home
 		    // start scrolling
 		    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 		}
+
+		window.openBookingPortal = (function() {
+			var opened = false;
+			return function() {
+		        if (!opened) {
+		            opened = true;
+		            var tag = document.createElement("script");
+					tag.setAttribute("async", "");
+					tag.setAttribute("defer", "");
+					tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
+					document.getElementsByTagName("head")[0].appendChild(tag);
+		        }
+		    };
+		})();
+
+	    var guides = document.getElementById('guides-header');
+	    var guidesOffset = guides.getBoundingClientRect();
+	    var triggerHeight = window.pageYOffset + guidesOffset.top + guidesOffset.height*.6;
+		window.onscroll = function() {
+		    if (window.pageYOffset > triggerHeight) {
+		        openBookingPortal();
+		    }
+		}
+
 	}, false);
 </script>
