@@ -98,6 +98,10 @@ p {
 	color: $font-color;
 }
 
+#mobile {
+	display: none;
+}
+
 #tour-description p {
 	margin-bottom: 20px;
 }
@@ -522,6 +526,24 @@ p {
 }
 
 @media (max-width: 480px)  {
+
+	#mobile {
+		display: block;
+		width: 100%;
+	}
+
+	#key-messaging-container {
+		padding: 15px 0;
+	}
+
+	#covid {
+		margin: 15px 0;
+		font-size: 0.9rem;
+	} 
+
+	.button {
+		display: none;
+	}
 
 	#max {
 		width: 100%;
