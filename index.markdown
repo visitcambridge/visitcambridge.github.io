@@ -31,9 +31,9 @@ layout: home
 </div>
 
 <div id="guides-container">
-	<div id="guides-header"><h2>Our guides</h2></div>
 	<div id="guides">
 		<div class="profile">
+			<h2>Our guides</h2>
 			<p class="description">Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
 			{% include button.html %}
 		</div>
