@@ -28,7 +28,7 @@ url: "https://visitcambridge.com" # the base hostname & protocol for your site, 
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-# google_analytics: "UA-53471046-2"
+google_analytics: "UA-53471046-3"
 
 # Build settings
 theme: minima
