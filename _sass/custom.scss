@@ -9,7 +9,7 @@
 }
 
 $font-color: #000000;
-$font-secondary-color: #8C8C8C;
+$font-secondary-color: #7F7F7F;
 $primary-color: #043F9F;
 $secondary-color: #8CB9AD;
 $tertiary-color: #FCDB0F;
@@ -24,6 +24,18 @@ $tertiary-color: #FCDB0F;
 
 html, body {
 	overflow-x: hidden;
+}
+
+.loading {
+	position: relative;
+	z-index: -1;
+}
+
+.loading h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .post-header {
@@ -182,7 +194,7 @@ p {
 	min-width: 0;
 }
 
-#sticky-footer-content p {
+#sticky-footer-content .p1, #sticky-footer-content .p2 {
 	margin-bottom: 0;
 	line-height: 1.7em;
 	text-overflow: ellipsis;
@@ -422,6 +434,7 @@ p {
 	left: -42px;
 	width: calc(100% + 42px);
 	margin-bottom: 25px;
+	padding: 20px 0;
 }
 
 #quotes-header {
@@ -527,6 +540,16 @@ p {
 
 @media (max-width: 480px)  {
 
+	#sticky-footer-content .p1 {
+		height: 3.4em;
+	    white-space: normal;
+	}
+
+
+	#sticky-footer-content .p2 {
+		display: none;
+	}
+
 	#mobile {
 		display: block;
 		width: 100%;
@@ -571,7 +594,7 @@ p {
 	}
 
 	#experts-container {
-		margin-bottom: 10vh;
+		margin-bottom: 40px;
 	}
 
 

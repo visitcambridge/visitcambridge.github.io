@@ -72,59 +72,70 @@ layout: home
 	</div>
 </div>
 
-<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944"></div>
-<noscript>Please enable javascript in your browser to book</noscript>
-
-<div style="width:100%; height: 120px;"></div>
-
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
+	var footerButton = function() {
 
-		window.smoothScroll = function(target) {
-		    var scrollContainer = target;
-		    do { //find scroll container
-		        scrollContainer = scrollContainer.parentNode;
-		        if (!scrollContainer) return;
-		        scrollContainer.scrollTop += 1;
-		    } while (scrollContainer.scrollTop == 0);
-
-		    var targetY = 0;
-		    do { //find the top of target relatively to the container
-		        if (target == scrollContainer) break;
-		        targetY += target.offsetTop;
-		    } while (target = target.offsetParent);
-
-		    scroll = function(c, a, b, i) {
-		        i++; if (i > 30) return;
-		        c.scrollTop = a + (b - a) / 30 * i;
-		        setTimeout(function(){ scroll(c, a, b, i); }, 20);
-		    }
-		    // start scrolling
-		    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-		}
-
-		window.openBookingPortal = (function() {
-			var opened = false;
-			return function() {
-		        if (!opened) {
-		            opened = true;
-		            var tag = document.createElement("script");
-					tag.setAttribute("async", "");
-					tag.setAttribute("defer", "");
-					tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
-					document.getElementsByTagName("head")[0].appendChild(tag);
-		        }
-		    };
-		})();
-
-	    var guides = document.getElementById('guides-header');
-	    var guidesOffset = guides.getBoundingClientRect();
-	    var triggerHeight = window.pageYOffset + guidesOffset.top + guidesOffset.height*.6;
+		var footer = document.getElementById('sticky-footer');
+	    var buttonContainer = document.querySelector('#guides-container');
+		var button = buttonContainer.querySelector('.primary-button');
+	    var buttonOffset = button.getBoundingClientRect();
+	    var triggerHeight = window.pageYOffset + buttonOffset.top + buttonOffset.height*.6;
+	    footer.classList.remove("show-footer");
 		window.onscroll = function() {
-		    if (window.pageYOffset > triggerHeight) {
-		        openBookingPortal();
+		    if (window.pageYOffset > triggerHeight || window.innerWidth < 480) {
+		        footer.classList.add("show-footer");
+		    } else {
+		        footer.classList.remove("show-footer");
 		    }
 		}
+		// window.smoothScroll = function(target) {
+		//     var scrollContainer = target;
+		//     do { //find scroll container
+		//         scrollContainer = scrollContainer.parentNode;
+		//         if (!scrollContainer) return;
+		//         scrollContainer.scrollTop += 1;
+		//     } while (scrollContainer.scrollTop == 0);
 
-	}, false);
+		//     var targetY = 0;
+		//     do { //find the top of target relatively to the container
+		//         if (target == scrollContainer) break;
+		//         targetY += target.offsetTop;
+		//     } while (target = target.offsetParent);
+
+		//     scroll = function(c, a, b, i) {
+		//         i++; if (i > 30) return;
+		//         c.scrollTop = a + (b - a) / 30 * i;
+		//         setTimeout(function(){ scroll(c, a, b, i); }, 20);
+		//     }
+		//     // start scrolling
+		//     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+		// }
+
+		// window.openBookingPortal = (function() {
+		// 	var opened = false;
+		// 	return function() {
+		//         if (!opened) {
+		//             opened = true;
+		//             var tag = document.createElement("script");
+		// 			tag.setAttribute("async", "");
+		// 			tag.setAttribute("defer", "");
+		// 			tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
+		// 			document.getElementsByTagName("head")[0].appendChild(tag);
+		//         }
+		//     };
+		// })();
+
+		//    var guides = document.getElementById('guides-header');
+		//    var guidesOffset = guides.getBoundingClientRect();
+		//    var triggerHeight = window.pageYOffset + guidesOffset.top + guidesOffset.height*.6;
+		// window.onscroll = function() {
+		//     if (window.pageYOffset > triggerHeight) {
+		//         openBookingPortal();
+		//     }
+		// }
+
+	};
+
+	window.addEventListener('DOMContentLoaded', footerButton, false);
+	window.addEventListener('resize', footerButton, false);
 </script>
