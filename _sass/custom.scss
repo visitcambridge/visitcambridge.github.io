@@ -36,6 +36,13 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
+    opacity: 1;
+    animation: fade 1s ease infinite;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0.2 }
+  45%, 55% { opacity: 1 }
 }
 
 .post-header {
