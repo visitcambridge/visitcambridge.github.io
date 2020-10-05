@@ -10,6 +10,6 @@ Tours are listed exclusively by Green and Blue Badge Guides, who are accredited 
 
 You can contact us at <a class="primary-color" href="mailto:{{ site.email }}" >contact@visitcambridge.com</a>.
 
-We are not associated with <a class="primary-color" href="https://www.cambridge.gov.uk/" target="_blank">Cambridge City Council<a> or its former destination management organisation (DMO), <a class="primary-color" href="https://www.visitcambridge.org/" target="_blank">Visit Cambridge and Beyond Ltd</a>. 
+We are not associated with <a class="primary-color" href="https://www.cambridge.gov.uk/" target="_blank">Cambridge City Council</a> or its former destination management organisation (DMO), <a class="primary-color" href="https://www.visitcambridge.org/" target="_blank">Visit Cambridge and Beyond Ltd</a>. 
 
 <div style="width:100%; height: 120px;"></div>
