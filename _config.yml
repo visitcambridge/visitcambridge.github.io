@@ -20,6 +20,7 @@
 
 title: Visit Cambridge
 name: Visit Cambridge
+lang: en_GB
 email: contact@visitcambridge.com
 description: >- # this means to ignore newlines until "baseurl:"
   Join the official walking tour of Cambridge to see its unmissable sights.

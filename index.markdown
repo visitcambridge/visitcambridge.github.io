@@ -14,7 +14,7 @@ layout: home
 				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
 			</div>
 			{% include button.html %}
-			<img id="mobile" class="profile-image" src="/assets/images/mobile.png" alt="Visit Cambridge Official Walking Tours | Essential sights" title="Visit Cambridge Official Walking Tours | Essential sights">
+			<img id="mobile" class="profile-image" src="/assets/images/mobile.png" alt="Visit Cambridge Official Walking Tours | Essential sights" loading="eager" title="Visit Cambridge Official Walking Tours | Essential sights">
 			<p id="covid" class="description primary-color"><b>COVID-19:</b> We're open for business with socially distanced tours.</p>
 		</div>
 		<div id="atf-images">
