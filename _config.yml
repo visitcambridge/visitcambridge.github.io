@@ -35,6 +35,7 @@ google_analytics: "UA-53471046-3"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
