@@ -60,7 +60,7 @@ layout: home
 </div>
 
 <div id="quote-container">
-	<div id="quotes-header"><h3>What our guests are saying</h3></div>
+	<div id="quotes-header"><h3>What guests are saying</h3></div>
 	<div id="quote-1" class="quote">
 		<p>Don't miss this excellent overview of the town! There is so much history here it is incredible.</p>
 	</div>
