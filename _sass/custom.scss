@@ -26,6 +26,10 @@ html, body {
 	overflow-x: hidden;
 }
 
+.post {
+	min-height: 35vh;
+}
+
 .loading {
 	position: relative;
 	z-index: -1;
@@ -71,7 +75,20 @@ html, body {
 }
 
 .site-nav {
+	margin-top: 10px;
 	line-height: 60px;
+	width: 100%;
+	display: inline-block;
+}
+
+.trigger-wrapper {
+	width: 100%;
+	overflow-x: scroll;
+}
+
+.trigger {
+	margin-left: 3px;
+	display: inline-flex;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -90,7 +107,6 @@ html, body {
 
 .site-header .wrapper {
 	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 h1, h2 {
@@ -128,7 +144,7 @@ p, a {
 #atf {
 	display: flex;
 	align-items: center;
-    min-height: 63vh;
+    min-height: 60vh;
 }
 
 #atf-wrapper {
@@ -175,7 +191,7 @@ p, a {
 }
 
 #key-messaging-container {
-	padding: 0 0 40px 0;
+	padding: 0 0 30px 0;
 }
 
 #sticky-footer {
@@ -358,11 +374,7 @@ p, a {
 	justify-content: space-between;
 	min-height: 20vh;
 	padding: 0 0 5vh 0;
-}
-
-#experts-header {
-	border-bottom: 2px solid #F7E8DD;
-	width: 100%;
+	border-top: 2px solid #F7E8DD;
 }
 
 .iotg {
@@ -588,16 +600,8 @@ p, a {
 		width: 100%;
 	}
 
-	.site-nav {
-		display: none;
-	}
-
 	#footer-description {
 		font-size: 1rem;
-	}
-
-	.site-nav .page-link:not(:last-child) {
-		margin-right: 0;
 	}
 
 	#atf-copy {
@@ -611,6 +615,7 @@ p, a {
 
 	#experts-container {
 		margin-bottom: 40px;
+		min-height: 15vh;
 	}
 
 

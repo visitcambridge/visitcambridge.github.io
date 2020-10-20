@@ -24,7 +24,6 @@ layout: home
 </div>
 
 <div id="experts-container">
-	<div id="experts-header"><h2>Hosted by award-winning guides</h2></div>
 	<img class="iotg" src="/assets/images/ta.svg" loading="lazy" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" loading="lazy" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
 	<img class="iotg" src="/assets/images/iotg.svg" loading="lazy" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
@@ -34,8 +33,8 @@ layout: home
 	<div id="guides">
 		<div class="profile">
 			<h2>Our guides</h2>
-			<p class="description">Our community of Green and Blue Badge Guides love Cambridge and can’t wait to share it with you. They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
-			{% include button.html %}
+			<p class="description">Our community of award-winning Green and Blue Badge Guides love Cambridge and can’t wait to share it with you.</p><p>They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
+<!-- 			{% include button.html %} -->
 		</div>
 		<img id="max" class="profile-image" src="/assets/images/max.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
 	</div>
@@ -76,7 +75,7 @@ layout: home
 	var footerButton = function() {
 
 		var footer = document.getElementById('sticky-footer');
-	    var buttonContainer = document.querySelector('#guides-container');
+	    var buttonContainer = document.querySelector('#atf-copy');
 		var button = buttonContainer.querySelector('.primary-button');
 	    var buttonOffset = button.getBoundingClientRect();
 	    var triggerHeight = window.pageYOffset + buttonOffset.top + buttonOffset.height*.6;
