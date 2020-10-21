@@ -84,6 +84,14 @@ html, body {
 .trigger-wrapper {
 	width: 100%;
 	overflow-x: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.trigger-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .trigger {
