@@ -4,9 +4,12 @@ permalink: /book/
 style: book
 title: Book a walking tour of Cambridge
 ---
+<div class="loading">
+	<h2>Loading...</h2>
+</div> 
 
-<!-- <div id="next-up-container" style="margin-top: 40px;">
-	<div id="next-up-header"><h2>Essential Cambridge</h2></div>
+<div id="next-up-container" class="transparent" style="height: 0 !important; margin: 0 !important;">
+	<div id="next-up-header" ><p>The essential Cambridge tour</p></div>
 	<div id="tour-container">
 		<div id="tour-description">
 			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>
@@ -22,25 +25,7 @@ title: Book a walking tour of Cambridge
 		</div>
 	</div>
 </div>
-
-<div id="quote-container">
-	<div id="quotes-header"><h3>What our guests are saying</h3></div>
-	<div id="quote-1" class="quote">
-		<p>Don't miss this excellent overview of the town! There is so much history here it is incredible.</p>
-	</div>
-	<div id="quote-2" class="quote">
-		<p>Max made the two hours simply fly. He was full of interesting facts and gave an excellent tour!</p>
-	</div>
-	<div id="quote-3" class="quote">
-		<p>I was born in Cambridge, but I learned more about it in these two hours than during my lifetime.</p>
-	</div>
-</div>
-
-<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience-calendar/423944"></div>
-<noscript>Please enable javascript in your browser to book</noscript> -->
-<div class="loading">
-	<h2>Loading...</h2>
-</div>    
+  
 <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience/423944"></div>
 <noscript>Please enable javascript in your browser to book</noscript>
 

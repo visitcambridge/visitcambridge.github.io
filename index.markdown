@@ -34,27 +34,8 @@ layout: home
 		<div class="profile">
 			<h2>Our guides</h2>
 			<p class="description">Our community of award-winning Green and Blue Badge Guides love Cambridge and can’t wait to share it with you.</p><p>They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
-<!-- 			{% include button.html %} -->
 		</div>
 		<img id="max" class="profile-image" src="/assets/images/max.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
-	</div>
-</div>
-
-<div id="next-up-container">
-	<div id="next-up-header"><h2>The essential Cambridge tour</h2></div>
-	<div id="tour-container">
-		<div id="tour-description">
-			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>
-			<p>Your 90 minute tour will span Cambridge’s 2,000 year history - from its humble beginnings as an Iron Age camp, to its current status as world-leading centre of learning and research.</p>
-			<p>You’ll hear tales of its people and landmarks, including the formation of Cambridge University and its colleges from old religious institutions.</p>
-			<p>You’ll visit places that have changed the world, including the Cavendish Laboratory Building which is linked with 29 Nobel Laureates. You’ll see where the very structure of our being, the double helix DNA, was discovered by Watson, Crick, Wilkins, and Franklin.</p>
-			<p>Along the way you’ll see:</p>
-			<ul>
-				<li> King's College, whose world famous Chapel is home to an exceptional choir.</li>
-			    <li> Trinity College, where you'll find Newton's apple tree.</li>
-			    <li> St John's College, where William Wilberforce started his university career before fighting to abolish slavery.</li>
-			</ul>
-		</div>
 	</div>
 </div>
 
@@ -70,6 +51,29 @@ layout: home
 		<p>I was born in Cambridge, but I learned more about it in these two hours than during my lifetime.</p>
 	</div>
 </div>
+
+{%- if site.posts.size > 0 -%}
+	<div id="news-container">
+		<div id="news-header"><h2>News and articles</h2></div>
+        <ul class="post-list">
+          {%- for post in site.posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+		<a class="primary-color" href="/feed">See more articles</a>
+	</div>
+{%- endif -%}
 
 <script>
 	var footerButton = function() {

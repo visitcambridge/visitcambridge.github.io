@@ -28,6 +28,11 @@ html, body {
 
 .post {
 	min-height: 35vh;
+	margin-bottom: 100px;
+}
+
+.transparent {
+	opacity: 0;
 }
 
 .loading {
@@ -136,10 +141,16 @@ h3, #experts-header h2 {
 	line-height: 1.5;
 }
 
-p, a {
+p {
 	font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
 	color: $font-color;
 }
+
+a {
+	font-family: Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+	color: $primary-color
+}
+
 
 #mobile {
 	display: none;
@@ -380,17 +391,16 @@ p, a {
     flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	min-height: 20vh;
-	padding: 0 0 5vh 0;
+	min-height: 19vh;
 	border-top: 2px solid #F7E8DD;
 }
 
 .iotg {
-	width: 170px;
+	width: 150px;
 }
 
 .vc-grey {
-	height: 90px;
+	height: 80px;
 	position: relative;
 	top: 2px;
 }
@@ -403,8 +413,12 @@ p, a {
 	width: 100px;
 }
 
-#next-up-container, #guides-container {
-	margin: 80px 0 40px 0;
+#guides-container{
+	margin: 100px 0 0 0;
+}
+
+#news-container {
+	margin: 100px 0 140px 0;
 }
 
 #previously-container {
@@ -432,7 +446,6 @@ p, a {
 }
 
 #next-up-header h2, #guides-container h2, .explainer-container h2 {
-	font-size: 3rem !important;
 	margin-bottom: 1rem;
 }
 
@@ -530,6 +543,18 @@ p, a {
 .invisible {
 	opacity: 0;
 	height: 0;
+}
+
+.post-meta {
+	margin-top: 10px;
+}
+
+.post-content {
+	margin-bottom: 100px;
+}
+
+.page-heading {
+	margin: 40px 0;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
