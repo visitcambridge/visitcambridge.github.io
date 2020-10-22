@@ -71,7 +71,7 @@ layout: home
           </li>
           {%- endfor -%}
         </ul>
-		<a class="primary-color" href="/feed">See more articles</a>
+		<a class="secondary-font-color" href="/feed">See more articles</a>
 	</div>
 {%- endif -%}
 
