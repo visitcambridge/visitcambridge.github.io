@@ -15,6 +15,17 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  {%- if page.image_url -%}
+    <div class="post-image-container">
+      <div class="post-image">
+        <img src="{{ page.image_url }}" loading="eager" alt="News and articles | {{ page.title | escape }}" title="News and articles | {{ page.title | escape }}">
+        {%- if page.photographer -%}
+          <a class="post-image-author" href="{{ page.photographer_url }}" target="_blank">Photo by {{ page.photographer }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
