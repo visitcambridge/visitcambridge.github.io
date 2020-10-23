@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Visit Cambridge Ltd launches"
+summary: 
 date:   2020-07-30
 categories: company
+author: Adam Field
 image_url: /assets/images/2020-07-30_kings_college.jpg
+tile_image_url: /assets/images/2020-07-30_kings_college_tile.jpg
 photographer: Markus Leo
 photographer_url: https://unsplash.com/@imnotaleo
 ---
