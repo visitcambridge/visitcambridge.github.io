@@ -31,4 +31,29 @@
 
   </body>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var url_path = window.location.pathname;
+      if (url_path.includes("/accommodation")){
+        var header_link = document.getElementById("header-accommodation");
+        header_link.classList.add("bold");
+      } else if (url_path.includes("/tours")){
+        var header_link = document.getElementById("header-tours");
+        header_link.classList.add("bold");
+      } else if (url_path.includes("/feed")){
+        var header_link = document.getElementById("header-news");
+        header_link.classList.add("bold");
+      } else if (url_path.includes("/about")){
+        var header_link = document.getElementById("header-about");
+        header_link.classList.add("bold");
+      } else if (url_path="/"){
+        var header_link = document.getElementById("header-home");
+        header_link.classList.add("bold");
+      } else {
+        return null
+      };
+
+    }, false);
+  </script>
+
 </html>

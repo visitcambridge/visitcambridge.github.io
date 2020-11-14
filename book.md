@@ -1,12 +1,12 @@
 ---
 layout: booking
-permalink: /book/
-style: book
+permalink: /tours/
+style: accommodation
 title: Book a walking tour of Cambridge
 ---
-<div class="loading">
+<!-- <div class="loading">
 	<h2>Loading...</h2>
-</div> 
+</div>  -->
 
 <div id="next-up-container" class="transparent" style="height: 0 !important; margin: 0 !important;">
 	<div id="next-up-header" ><p>The essential Cambridge tour</p></div>
@@ -25,43 +25,18 @@ title: Book a walking tour of Cambridge
 		</div>
 	</div>
 </div>
-  
-<div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience/423944"></div>
-<noscript>Please enable javascript in your browser to book</noscript>
 
+<div data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="24" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
+  
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
 
 		var tag = document.createElement("script");
 		tag.setAttribute("async", "");
 		tag.setAttribute("defer", "");
-		tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626"
+		tag.setAttribute("data-gyg-partner-id", "4BFP0TS");
+		tag.src = "https://widget.getyourguide.com/dist/pa.umd.production.min.js"
 		document.getElementsByTagName("head")[0].appendChild(tag);
-
-		// window.openBookingPortal = (function() {
-		// 	var opened = false;
-		// 	return function() {
-		//         if (!opened) {
-		//             opened = true;
-		//             var tag = document.createElement("script");
-		// 			tag.setAttribute("async", "");
-		// 			tag.setAttribute("defer", "");
-		// 			tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
-		// 			document.getElementsByTagName("head")[0].appendChild(tag);
-		//         }
-		//     };
-		// })();
-
-	 //    var guides = document.getElementById('guides-header');
-	 //    var guidesOffset = guides.getBoundingClientRect();
-	 //    var triggerHeight = window.pageYOffset + guidesOffset.top + guidesOffset.height*.6;
-		// window.onscroll = function() {
-		//     if (window.pageYOffset > triggerHeight) {
-		//         openBookingPortal();
-		//     }
-		// }
-
-		// openBookingPortal();
 
 	}, false);
 </script>
