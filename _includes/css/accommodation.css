@@ -1,0 +1,5 @@
+.page-content .wrapper {
+	max-width: -webkit-calc(1000px - (30px * 2)) !important;
+    max-width: calc(1000px - (30px * 2)) !important;
+}
+

@@ -273,6 +273,18 @@ a {
 	width: 350px;
 }
 
+#accommodation_map {
+	background: #FFFFFF;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 2px solid #F7E8DD;
+	padding-bottom: -10px;
+}
+
+#accommodation_map ins iframe {
+	margin: -2px 0 -10px 0 !important;
+}
+
 .bokunWidget {
 	margin: 0 -4px 0 -4px;
 }
