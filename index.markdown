@@ -11,11 +11,11 @@ layout: home
 		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
 		<div id="atf-copy">
 			<div id="key-messaging-container">
-				<h1 class="key-messaging">Official walking tours of Cambridge</h1>
+				<h1 class="key-messaging">Discover the best of Cambridge</h1>
 			</div>
 			{% include button.html %}
 			<img id="mobile" class="profile-image" src="/assets/images/mobile.png" alt="Visit Cambridge Official Walking Tours | Essential sights" loading="eager" title="Visit Cambridge Official Walking Tours | Essential sights">
-			<p id="covid" class="description primary-color"><b>COVID-19:</b> We're open for business with socially distanced tours.</p>
+			<p id="covid" class="description primary-color"><b>COVID-19:</b> Please follow local guidelines whilst visiting.</p>
 		</div>
 		<div id="atf-images">
 			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" loading="eager" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
