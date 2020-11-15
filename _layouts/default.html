@@ -46,6 +46,9 @@
       } else if (url_path.includes("/about")){
         var header_link = document.getElementById("header-about");
         header_link.classList.add("bold");
+      } else if (url_path.includes("/restaurants")){
+        var header_link = document.getElementById("header-restaurant");
+        header_link.classList.add("bold");
       } else if (url_path="/"){
         var header_link = document.getElementById("header-home");
         header_link.classList.add("bold");
