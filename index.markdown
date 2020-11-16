@@ -7,18 +7,18 @@ layout: home
 
 <div id="atf">
 	<div id="atf-wrapper">
-		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | River Cam" title="Visit Cambridge Official Walking Tours | River Cam">
-		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Kings College Chapel" title="Visit Cambridge Official Walking Tours | Kings College Chapel">
+		<img id="rc" class="profile-image" src="/assets/images/river-cam.jpg" loading="lazy" alt="Visit Cambridge Ltd | River Cam" title="Visit Cambridge Ltd | River Cam">
+		<img id="kcc" class="profile-image" src="/assets/images/kings-college-chapel.jpg" loading="lazy" alt="Visit Cambridge Ltd | Kings College Chapel" title="Visit Cambridge Ltd | Kings College Chapel">
 		<div id="atf-copy">
 			<div id="key-messaging-container">
 				<h1 class="key-messaging">Discover the best of Cambridge</h1>
 			</div>
 			{% include button.html %}
-			<img id="mobile" class="profile-image" src="/assets/images/mobile.png" alt="Visit Cambridge Official Walking Tours | Essential sights" loading="eager" title="Visit Cambridge Official Walking Tours | Essential sights">
+			<img id="mobile" class="profile-image" src="/assets/images/mobile.png" alt="Visit Cambridge Ltd | Essential sights" loading="eager" title="Visit Cambridge Ltd | Essential sights">
 			<p id="covid" class="description primary-color"><b>COVID-19:</b> Please follow local guidelines whilst visiting.</p>
 		</div>
 		<div id="atf-images">
-			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" loading="eager" alt="Visit Cambridge Official Walking Tours | Bridge of Sighs" title="Visit Cambridge Official Walking Tours | Bridge of Sighs">
+			<img id="bridge-of-sighs" class="profile-image" src="/assets/images/bridge-of-sighs.jpg" loading="eager" alt="Visit Cambridge Ltd | Bridge of Sighs" title="Visit Cambridge Ltd | Bridge of Sighs">
 		</div>
 	</div>
 </div>
@@ -34,7 +34,7 @@ layout: home
 			<h2>Cambridge tours</h2>
 			<p class="description">We've partnered with award-winning providers to offer tours and activites that showcase the best of Cambridge. When you visit Cambridge, you'll be greeted by guides that love the area and can’t wait to share its history with you.</p><p>They can tailor your experience to your needs and interests, and no two tours are the same.</p>
 		</div>
-		<img id="max" class="profile-image" src="/assets/images/max.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
+		<img id="max" class="profile-image" src="/assets/images/max.jpg" loading="lazy" alt="Visit Cambridge Ltd | Our guides" title="Visit Cambridge Ltd | Official tours">
 	</div>
 </div>
 
