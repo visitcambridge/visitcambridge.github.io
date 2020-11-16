@@ -26,14 +26,13 @@ layout: home
 <div id="experts-container">
 	<img class="iotg" src="/assets/images/ta.svg" loading="lazy" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" loading="lazy" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
-	<img class="iotg" src="/assets/images/iotg.svg" loading="lazy" alt="Registered with the Institute of Tourist Guiding" title="Registered with the Institute of Tourist Guiding">
 </div>
 
 <div id="guides-container">
 	<div id="guides">
 		<div class="profile">
-			<h2>Our guides</h2>
-			<p class="description">Our community of award-winning Green and Blue Badge Guides love Cambridge and can’t wait to share it with you.</p><p>They will tailor your experience to your needs and interests, and no two tours are the same. Green and Blue Badge Guides are accredited by the Institute of Tourist Guiding.</p>
+			<h2>Cambridge tours</h2>
+			<p class="description">We've partnered with award-winning providers to offer tours and activites that showcase the best of Cambridge. When you visit Cambridge, you'll be greeted by guides that love the area and can’t wait to share its history with you.</p><p>They can tailor your experience to your needs and interests, and no two tours are the same.</p>
 		</div>
 		<img id="max" class="profile-image" src="/assets/images/max.jpg" loading="lazy" alt="Visit Cambridge Official Walking Tours | Our guides" title="Visit Cambridge Official Walking Tours | Our guides">
 	</div>
@@ -45,7 +44,7 @@ layout: home
 		<p>Don't miss this excellent overview of the town! There is so much history here it is incredible.</p>
 	</div>
 	<div id="quote-2" class="quote">
-		<p>Max made the two hours simply fly. He was full of interesting facts and gave an excellent tour!</p>
+		<p>Our guide made the time simply fly. He was full of interesting facts and gave an excellent tour!</p>
 	</div>
 	<div id="quote-3" class="quote">
 		<p>I was born in Cambridge, but I learned more about it in these two hours than during my lifetime.</p>
