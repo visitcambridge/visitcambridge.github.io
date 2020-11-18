@@ -1,8 +1,8 @@
 ---
-layout: booking
+layout: home
 permalink: /accommodation/
-style: accommodation
-title: Stay in Cambridge
+
+title: "Staying in Cambridge"
 ---
 <div class="loading">
 	<h2>Loading...</h2>
@@ -15,30 +15,50 @@ title: Stay in Cambridge
 	</ins>
 </div>
 
-<script type="text/javascript">
+<div style="min-height: 35vh;" style="margin-bottom: 100px; margin-top: 60px;">
+	<ul class="post-list" >
+	  	{%- for post in site.posts -%}
+	  		{%- if post.categories contains "accommodation" -%}
+			 	<li>
+			 		<div class="feed-item">
+				 		<div class="feed-body">
+						  	{%- if post.author -%}
+						    	<p class="post-meta" style="margin-top: 0;">by {{ post.author }}</p>
+						    {%- endif -%}
+						    
+						    <h3 class="feed-title"><a class="post-link" href="{{ post.url | relative_url }}">
+						        {{ post.title | escape }}
+						    </a></h3>
 
-</script>
+						    <p class="post-meta post-summary pointer" onclick="location.href='{{ post.url | relative_url }}';">
+						    	{%- if post.summary -%}
+						    		{{ post.summary }}
+						    	{%- else -%}
+						    		{{ post.content | strip_html | truncate: 147 }}
+						    	{%- endif -%}
+						    </p>
+
+						    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+						    <p class="post-meta" style="margin-bottom: 0;">{{ post.date | date: date_format }}</p>
+					    </div>
+			    	  	<div class="feed-image pointer" onclick="location.href='{{ post.url | relative_url }}';">
+			        		<img src="{%- if post.tile_image_url -%}{{ post.tile_image_url }}{%- else -%}{%- endif -%}" loading="lazy" alt="News and articles | {{ post.title | escape }}" title="News and articles | {{ post.title | escape }}">    	
+			    	  	</div>
+			  		</div>
+			  	</li>
+			{%- endif -%} 	
+	  	{%- endfor -%}
+	</ul>
+</div>
 
 <div id="next-up-container" class="transparent" style="height: 0 !important; margin: 0 !important;">
 	<div id="next-up-header" ><p>Stay in Cambridge</p></div>
 	<div id="tour-container">
 		<div id="tour-description">
 			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>
-			<p>Your 90 minute tour will span Cambridge’s 2,000 year history - from its humble beginnings as an Iron Age camp, to its current status as world-leading centre of learning and research.</p>
-			<p>You’ll hear tales of its people and landmarks, including the formation of Cambridge University and its colleges from old religious institutions.</p>
-			<p>You’ll visit places that have changed the world, including the Cavendish Laboratory Building which is linked with 29 Nobel Laureates. You’ll see where the very structure of our being, the double helix DNA, was discovered by Watson, Crick, Wilkins, and Franklin.</p>
-			<p>Along the way you’ll see:</p>
-			<ul>
-				<li> King's College, whose world famous Chapel is home to an exceptional choir.</li>
-			    <li> Trinity College, where you'll find Newton's apple tree.</li>
-			    <li> St John's College, where William Wilberforce started his university career before fighting to abolish slavery.</li>
-			</ul>
 		</div>
 	</div>
 </div>
-  
-<!-- <div class="bokunWidget" data-src="https://widgets.bokun.io/online-sales/b2a94f77-29a2-4342-86ca-10ac40ad7626/experience/423944"></div>
-<noscript>Please enable javascript in your browser to book</noscript> -->
 
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
@@ -50,37 +70,6 @@ title: Stay in Cambridge
 		    s.src = u + '?v=' + (+new Date());
 		    p.parentNode.insertBefore(s,p);
 		 })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
-
-		// var tag = document.createElement("script");
-		// tag.setAttribute("async", "");
-		// tag.setAttribute("defer", "");
-		// tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626"
-		// document.getElementsByTagName("head")[0].appendChild(tag);
-
-		// window.openBookingPortal = (function() {
-		// 	var opened = false;
-		// 	return function() {
-		//         if (!opened) {
-		//             opened = true;
-		//             var tag = document.createElement("script");
-		// 			tag.setAttribute("async", "");
-		// 			tag.setAttribute("defer", "");
-		// 			tag.src = "https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=b2a94f77-29a2-4342-86ca-10ac40ad7626";
-		// 			document.getElementsByTagName("head")[0].appendChild(tag);
-		//         }
-		//     };
-		// })();
-
-	 //    var guides = document.getElementById('guides-header');
-	 //    var guidesOffset = guides.getBoundingClientRect();
-	 //    var triggerHeight = window.pageYOffset + guidesOffset.top + guidesOffset.height*.6;
-		// window.onscroll = function() {
-		//     if (window.pageYOffset > triggerHeight) {
-		//         openBookingPortal();
-		//     }
-		// }
-
-		// openBookingPortal();
 
 	}, false);
 </script>
