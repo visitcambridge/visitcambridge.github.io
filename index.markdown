@@ -26,6 +26,7 @@ layout: home
 <div id="experts-container">
 	<img class="iotg" src="/assets/images/ta.svg" loading="lazy" alt="Rated 4.5 stars on average on Tripadvisor" title="Rated 4.5 stars on average on Tripadvisor">
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" loading="lazy" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
+	<img class="iotg" src="/assets/images/five-star.svg" loading="lazy" alt="5 star rated hotels and restaurants" title="5 star rated hotels and restaurants">
 </div>
 
 {%- if false -%}
