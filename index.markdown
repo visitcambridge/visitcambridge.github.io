@@ -28,16 +28,18 @@ layout: home
 	<img class="vc-grey" src="/assets/images/vc-grey.svg" loading="lazy" alt="Quality-assured by Visit Cambridge Ltd" title="Quality-assured by Visit Cambridge Ltd">
 </div>
 
-<div id="guides-container">
-	<div id="guides">
-		<div id="profile">
-			<h2>Virtual Cambridge</h2>
-			<p class="description">Since lock down, its been hard to visit Cambridge - until NOW! The David Parr house are running virtual tours of this iconic house.</p><p>Join a Zoom call with a difference where their guides gives you a 3D tour around 186 Gwydir Street.</p>
-			<a class="button-anchor secondary-button" href="https://davidparrhouse.org/product/online-tour/"><div class="button noselect">Book a virtual tour</div></a>
+{%- if false -%}
+	<div id="guides-container">
+		<div id="guides">
+			<div id="profile">
+				<h2>Virtual Cambridge</h2>
+				<p class="description">Since lock down, its been hard to visit Cambridge - until NOW! The David Parr house are running virtual tours of this iconic house.</p><p>Join a Zoom call with a difference where their guides gives you a 3D tour around 186 Gwydir Street.</p>
+				<a class="button-anchor secondary-button" href="https://davidparrhouse.org/product/online-tour/"><div class="button noselect">Book a virtual tour</div></a>
+			</div>
+			<img id="max" class="profile-image" src="/assets/images/david-parr.png" loading="lazy" alt="Virtual Tour of David Parr House" title="David Parr House | Vitual Tour">
 		</div>
-		<img id="max" class="profile-image" src="/assets/images/david-parr.png" loading="lazy" alt="Virtual Tour of David Parr House" title="David Parr House | Vitual Tour">
 	</div>
-</div>
+{%- endif -%}
 
 
 <div id="guides-container">
