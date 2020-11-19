@@ -1,7 +1,6 @@
 ---
 layout: home
 permalink: /accommodation/
-
 title: "Staying in Cambridge"
 ---
 <div class="loading">
@@ -49,15 +48,6 @@ title: "Staying in Cambridge"
 			{%- endif -%} 	
 	  	{%- endfor -%}
 	</ul>
-</div>
-
-<div id="next-up-container" class="transparent" style="height: 0 !important; margin: 0 !important;">
-	<div id="next-up-header" ><p>Stay in Cambridge</p></div>
-	<div id="tour-container">
-		<div id="tour-description">
-			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>
-		</div>
-	</div>
 </div>
 
 <script>

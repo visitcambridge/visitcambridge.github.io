@@ -1,32 +1,45 @@
 ---
-layout: booking
+layout: home
 permalink: /tours/
-style: accommodation
-title: Book a walking tour of Cambridge
+title: "Activities in Cambridge"
 ---
-<!-- <div class="loading">
-	<h2>Loading...</h2>
-</div>  -->
+<div style="margin-top: -10px; margin-left: -16px; width: calc(100% + 32px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="8" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
 
-<div id="next-up-container" class="transparent" style="height: 0 !important; margin: 0 !important;">
-	<div id="next-up-header" ><p>The essential Cambridge tour</p></div>
-	<div id="tour-container">
-		<div id="tour-description">
-			<p>Join the official walking tour of Cambridge to see its unmissable sights.</p>
-			<p>Your 90 minute tour will span Cambridge’s 2,000 year history - from its humble beginnings as an Iron Age camp, to its current status as world-leading centre of learning and research.</p>
-			<p>You’ll hear tales of its people and landmarks, including the formation of Cambridge University and its colleges from old religious institutions.</p>
-			<p>You’ll visit places that have changed the world, including the Cavendish Laboratory Building which is linked with 29 Nobel Laureates. You’ll see where the very structure of our being, the double helix DNA, was discovered by Watson, Crick, Wilkins, and Franklin.</p>
-			<p>Along the way you’ll see:</p>
-			<ul>
-				<li> King's College, whose world famous Chapel is home to an exceptional choir.</li>
-			    <li> Trinity College, where you'll find Newton's apple tree.</li>
-			    <li> St John's College, where William Wilberforce started his university career before fighting to abolish slavery.</li>
-			</ul>
-		</div>
-	</div>
+<div style="min-height: 35vh;" style="margin-bottom: 100px; margin-top: 60px;">
+	<ul class="post-list" >
+	  	{%- for post in site.posts -%}
+	  		{%- if post.categories contains "activities" -%}
+			 	<li>
+			 		<div class="feed-item">
+				 		<div class="feed-body">
+						  	{%- if post.author -%}
+						    	<p class="post-meta" style="margin-top: 0;">by {{ post.author }}</p>
+						    {%- endif -%}
+						    
+						    <h3 class="feed-title"><a class="post-link" href="{{ post.url | relative_url }}">
+						        {{ post.title | escape }}
+						    </a></h3>
+
+						    <p class="post-meta post-summary pointer" onclick="location.href='{{ post.url | relative_url }}';">
+						    	{%- if post.summary -%}
+						    		{{ post.summary }}
+						    	{%- else -%}
+						    		{{ post.content | strip_html | truncate: 147 }}
+						    	{%- endif -%}
+						    </p>
+
+						    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+						    <p class="post-meta" style="margin-bottom: 0;">{{ post.date | date: date_format }}</p>
+					    </div>
+			    	  	<div class="feed-image pointer" onclick="location.href='{{ post.url | relative_url }}';">
+			        		<img src="{%- if post.tile_image_url -%}{{ post.tile_image_url }}{%- else -%}{%- endif -%}" loading="lazy" alt="News and articles | {{ post.title | escape }}" title="News and articles | {{ post.title | escape }}">    	
+			    	  	</div>
+			  		</div>
+			  	</li>
+			{%- endif -%} 	
+	  	{%- endfor -%}
+	</ul>
 </div>
-
-<div data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="24" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
   
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
