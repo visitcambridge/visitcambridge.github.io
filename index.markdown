@@ -52,8 +52,10 @@ layout: home
 	</div>
 </div>
 
+<div style="margin-top: 60px; margin-left: -16px; width: calc(100% + 30px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
+
 <div id="quote-container">
-	<div id="quotes-header"><h3>What guests are saying</h3></div>
+	<div id="quotes-header"></div>
 	<div id="quote-1" class="quote">
 		<p>Don't miss this excellent overview of the town! There is so much history here it is incredible.</p>
 	</div>
@@ -171,4 +173,15 @@ layout: home
 
 	window.addEventListener('DOMContentLoaded', footerButton, false);
 	window.addEventListener('resize', footerButton, false);
+
+	document.addEventListener('DOMContentLoaded', function() {
+
+		var tag = document.createElement("script");
+		tag.setAttribute("async", "");
+		tag.setAttribute("defer", "");
+		tag.setAttribute("data-gyg-partner-id", "4BFP0TS");
+		tag.src = "https://widget.getyourguide.com/dist/pa.umd.production.min.js"
+		document.getElementsByTagName("head")[0].appendChild(tag);
+
+	}, false);
 </script>
