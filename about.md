@@ -10,4 +10,4 @@ We're not associated with <a class="primary-color" href="https://www.cambridge.g
 
 You can contact us at <a class="primary-color" href="mailto:{{ site.email }}" >contact@visitcambridge.com</a>.
 
-<div style="width:100%; height: 120px;"></div>
+<div style="width:100%; height: 120px; "></div>
