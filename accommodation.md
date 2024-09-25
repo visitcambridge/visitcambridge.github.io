@@ -8,10 +8,7 @@ title: "Staying in Cambridge"
 </div> 
 
 <div id="accommodation_map">
-	<ins class="bookingaff" data-aid="2093977" data-target_aid="2093977" data-prod="map" data-width="100%" data-height="590" data-lang="ualng" data-dest_id="0" data-dest_type="landmark" data-latitude="52.2046942" data-longitude="0.1191664" data-mwhsb="0" data-address="Cambridge CB2 3AD, UK">
-	    <!-- Anything inside will go away once widget is loaded. -->
-	     <a href="//www.booking.com?aid=2093977">Booking.com</a>
-	</ins>
+
 </div>
 
 <div style="min-height: 35vh;" style="margin-bottom: 100px; margin-top: 60px;">
