@@ -53,7 +53,7 @@ layout: home
 	</div>
 </div>
 
-<div style="margin-top: 60px; margin-left: -16px; width: calc(100% + 30px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="4" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
+<div style="margin-top: 60px; margin-left: -8px; width: calc(100% + 16px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="3" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
 
 <div id="quote-container">
 	<div id="quotes-header"></div>

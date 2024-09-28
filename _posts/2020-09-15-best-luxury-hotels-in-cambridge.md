@@ -20,18 +20,20 @@ Our top pick of luxury hotels have lots to offer whether you are just looking fo
 <br>
 <br>
 
-### [The Varsity Hotel](https://www.thevarsityhotel.co.uk/)
+### [University Arms Hotel](https://hotellook.tp.st/5PBRcjPY)
 
-![/assets/images/the-varsity-hotel-spa.jpg](/assets/images/the-varsity-hotel-spa.jpg)
+![/assets/images/university-arms-hotel.jpg](/assets/images/university-arms-hotel.jpg)
 
-Closest to many of the colleges this is a great hotel with incredible services and facilities. The restuarant has views of the River Cam from the roof terrace too!
+This is pure luxury, the rooms are fit for royalty. Voted as one of the Top five hotels in the UK its quirky and eclectic rooms are divine.
 
-Thompson's Lane, Cambridge CB5 8AQ England
+Regent St, Cambridge CB2 1AD
+
+<script async src="https://tp.media/content?currency=gbp&trs=352913&shmarker=574778&host=search.hotellook.com&locale=en&hotel_id=342791&nobooking=&powered_by=true&width=940&primary=%23043F9F&special=%23906D52&promo_id=4063&campaign_id=101" charset="utf-8"></script>
 
 <br>
 <br>
 
-### [Hilton Cambridge City Center](https://www.hilton.com/en/hotels/stnhchi-hilton-cambridge-city-centre/)
+### [Hilton Cambridge City Center](https://hotellook.tp.st/fFvcLouw)
 
 ![/assets/images/hilton-cambridge.jpg](/assets/images/hilton-cambridge.jpg)
 
@@ -39,16 +41,18 @@ This hotel provides great access to the City Center. Located minutes from all th
 
 20 Downing St, Cambridge CB2 3DT
 
+<script async src="https://tp.media/content?currency=gbp&trs=352913&shmarker=574778&host=search.hotellook.com&locale=en&hotel_id=342793&nobooking=&powered_by=true&width=940&primary=%23043F9F&special=%23906D52&promo_id=4063&campaign_id=101" charset="utf-8"></script>
+
 <br>
 <br>
 
-### [University Arms Hotel](https://universityarms.com/)
+### [The Varsity Hotel](https://www.thevarsityhotel.co.uk/)
 
-![/assets/images/university-arms-hotel.jpg](/assets/images/university-arms-hotel.jpg)
+![/assets/images/the-varsity-hotel-spa.jpg](/assets/images/the-varsity-hotel-spa.jpg)
 
-This is pure luxury, the rooms are fit for royalty. Voted as one of the Top five hotels in the UK its quirky and eclectic rooms are divine.
+Closest to many of the colleges this is a great hotel with incredible services and facilities. The restuarant has views of the River Cam from the roof terrace too!
 
-Regent St, Cambridge CB2 1AD
+Thompson's Lane, Cambridge CB5 8AQ England
 
 <br>
 <br>

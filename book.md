@@ -3,7 +3,7 @@ layout: home
 permalink: /tours/
 title: "Activities in Cambridge"
 ---
-<div style="margin-top: -10px; margin-left: -16px; width: calc(100% + 32px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="8" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
+<div style="margin-top: -10px; margin-left: -16px; width: calc(100% + 32px);" data-gyg-href="https://widget.getyourguide.com/default/activites.frame" data-gyg-locale-code="en-US" data-gyg-widget="activities" data-gyg-number-of-items="9" data-gyg-excluded-tour-ids="2095,18407,85239" data-gyg-partner-id="4BFP0TS" data-gyg-q="Cambridge"></div>
 
 <div style="min-height: 35vh;" style="margin-bottom: 100px; margin-top: 60px;">
 	<ul class="post-list" >

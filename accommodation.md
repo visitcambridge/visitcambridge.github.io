@@ -1,15 +1,18 @@
 ---
 layout: home
 permalink: /accommodation/
-title: "Staying in Cambridge"
+title: "Stay in Cambridge"
 ---
-<div class="loading">
+<!-- <div class="loading">
 	<h2>Loading...</h2>
 </div> 
+ -->
+<!-- <div id="accommodation_map">
 
-<div id="accommodation_map">
+</div> -->
 
-</div>
+<script async src="https://tp.media/content?currency=gbp&trs=352913&shmarker=574778&search_host=search.hotellook.com&locale=en&powered_by=true&draggable=true&disable_zoom=false&show_logo=false&scrollwheel=true&color=%23043F9F&contrast_color=%23ffffff&width=1000&height=500&lat=52.2&lng=0.116667&zoom=13&radius=60&stars=0&rating_from=7&rating_to=10&promo_id=4285&campaign_id=101" charset="utf-8"></script>
+
 
 <div style="min-height: 35vh;" style="margin-bottom: 100px; margin-top: 60px;">
 	<ul class="post-list" >
